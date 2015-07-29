@@ -1,0 +1,70 @@
+sd(c(5,8,12))
+which.min(c(4,1,6))
+8*6
+2^16
+2^
+sqrt(2)
+?sqrt
+squareroot2 = sqrt(2)
+sqaureroot2
+squareroot2
+hoursyear <- 365*24
+hoursyear
+ls()
+a = 34^2
+a
+ls()
+ls(a)
+ls
+ls()
+c(2,3,5,67,3)
+c
+v <- c(2,4,7,9)
+v
+country <- c("Brazil","China","Switzerland","India","United States")
+country
+lifeexpectancy <- c("74","67","98","68","82")
+lifeexpectancy
+country[1]
+country[4]
+country[5]
+lifeexpectancy[5]
+seq(0,100,2)
+s1 = seq(0,100,3)
+s1
+ls()
+ls().s1
+s1
+s2
+country
+cd = data.frame(country,lifeexpectancy)
+cd
+cd$population = c(35356,123567,32536,1300320,364033)
+cd
+country = c("Austrila","Greek")
+lifeexpectancy = c(82,81)
+population = c(23050,21415)
+newcd = data.frame(country,lifeexpectancy,population)
+newcd
+allcd = rbind(cd,newcd)
+cd
+country <- c("Austrila","Greek")
+lifeexpectancy <- c(82,81)
+population <- c(23050,21415)
+newcd = data.frame(country,lifeexpectancy,population)
+allcd = rbind(cd,newcd)
+lifeexpectancy = c("82","81")
+allcd = rbind(cd,newcd)
+newcd = data.frame(country,lifeexpectancy,population)
+allcd = rbind(cd,newcd)
+allcd
+df = read.csv("turnstile_data_master_with_weather.csv")
+summary(df)
+str(df)
+summary(df)
+model= lm(ENTRIESn_hourly ~ Hour + maxpressurei + maxdewpti + mindewpti + minpressurei  + meandewpti + meanpressurei + fog + rain  + meanwindspdi + maxtempi + precipi + thunder,data=df)
+str(model)
+summary(model)
+cor(rf)
+cor(df)
+cor(df[,unlist(lapply(df, is.numeric))])
